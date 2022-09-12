@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            border-collapse: collapse;
+            text-align: center ;
+
+        }
+        thead th{
+            background-color: gray;
+            color: white;
+        }
+
+        th, td{
+            border: 1px solid black;
+            padding: 10px;
+
+
+        }
+
+        tfoot{
+            background-color: gray;
+            color: white;
+            text-align: justify;
+
+        }
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">Área</th>
+                <th rowspan="2">Disciplinas</th>
+                <th colspan="2">Nota</th>
+                <th>Média</th>
+            </tr>
+
+        </thead>
+       
+        <tfoot>
+            <tr>
+                <th colspan="4">Médias de exatas</th>
+                <td>4.0</td>
+            </tr>
+
+        </tfoot>
+
+        <tbody>
+            <tr>
+                <th rowspan="4">Exatas</th>
+                <td>Matemática</td>
+                <td>7.0</td>
+                <td>6.5</td>
+                <td>4.3</td>
+            </tr>
+            <tr>
+                <td>Física</td>
+                <td>3.5</td>
+                <td>4.3</td>
+                <td>7.0</td>
+            </tr>
+            <tr>
+                <td>Química</td>
+                <td>3.5</td>
+                <td>9.0</td>
+                <td>8.5</td>
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td>3.2</td>
+                <td>4.8</td>
+                <td>9.4</td>
+
+            </tr>
+            <tr>
+                <th rowspan="2">Humanas</th>
+                <td>História</td>
+                <td>7.0</td>
+                <td>6.5</td>
+                <td>7.8</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td>5.0</td>
+                <td>6.8</td>
+                <td>9.8</td>
+            </tr>
+
+
+
+
+        </tbody>
+
+
+
+
+
+
+
+
+    </table>
+    
+</body>
+</html>
